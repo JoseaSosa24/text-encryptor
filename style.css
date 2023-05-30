@@ -1,3 +1,68 @@
-body{
-    background-color: #45565F;
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    /* padding: 5%; */
+    background-color: #E9ECF8;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    text-align: left;
+}
+
+main {
+    background-color: aqua;
+    padding: 5%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.text-section-input {
+    width: 40%;
+}
+
+.text-section-output {
+    background-color: aliceblue;
+    height: 90%;
+}
+
+.input-textarea,
+.output-textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.button-group {
+    margin-top: 10px;
+}
+
+.action-button {
+    margin-right: 10px;
+}
+
+footer {
+    height: 10%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    /* Estilos para el logo */
+}
+
+.section-title {
+    /* Estilos para los títulos de sección */
+}
+
+.footer-text {
+    /* Estilos para el texto del footer */
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
 </head>
+
 <body>
-    
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+    </header>
+
+    <main>
+        <section class="text-section-input">
+            <h2 class="section-title">Texto Original</h2>
+            <textarea id="input-text" class="input-textarea"></textarea>
+            <span class="section-description">
+                <img src="info-icon.png" alt="Información" class="info-icon">
+                Apenas letras minúsculas sem acento.
+            </span>
+            <div class="button-group">
+                <button id="encrypt-button" class="action-button">Encriptar</button>
+                <button id="decrypt-button" class="action-button">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="text-section-output">
+            <h2 class="section-title">Texto Encriptado</h2>
+            <textarea id="output-text" class="output-textarea" readonly></textarea>
+            <button id="copy-button" class="action-button">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">Realizado por [Nombre]</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
